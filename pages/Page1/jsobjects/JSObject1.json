@@ -1,0 +1,29 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\twelcome: `Welcome to our group! Here's a link to the new member paperwork:\n`,\n\trenewal: `A friendly reminder that your membership is about to expire. Please renew your subscriptions at:\n`,\n\tthankyou: `Thank you for supporting our group! Your membership has been renewed.\n`,\n\tonOpen: () => {\n\t\tstoreValue('msgName',appsmith.store.msgName || 'welcome')\n\t}\n\t\n\t\n\t\n\n}",
+    "variables": [
+      {
+        "name": "welcome",
+        "value": "`Welcome to our group! Here's a link to the new member paperwork:\n`"
+      },
+      {
+        "name": "renewal",
+        "value": "`A friendly reminder that your membership is about to expire. Please renew your subscriptions at:\n`"
+      },
+      {
+        "name": "thankyou",
+        "value": "`Thank you for supporting our group! Your membership has been renewed.\n`"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6261b50800cba01cd02f2567_6266a63100cba01cd0300ab6"
+}

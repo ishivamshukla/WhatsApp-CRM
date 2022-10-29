@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "email",
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "forkingEnabled": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
